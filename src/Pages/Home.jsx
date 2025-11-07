@@ -3,6 +3,7 @@ import ThemeToggle from '@/Component/ThemeToggle'
 import StarBackground from '@/Component/StarBackground'
 import NavBar from '../Component/NavBar'
 import HeroSection from '../Component/HeroSection'
+import AboutMe from '../Component/AboutMe'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
 
       <main>
         <HeroSection />
+        <AboutMe />
       </main>
     </div>
   )
