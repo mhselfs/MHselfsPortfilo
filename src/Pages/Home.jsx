@@ -18,6 +18,7 @@ function Home() {
         <HeroSection />
         <AboutMe />
         <Skills />
+        <Projects />
       </main>
     </div>
   )
