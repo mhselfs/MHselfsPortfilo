@@ -21,7 +21,7 @@ const HeroSection = () => {
                         به زودی پورتفیلو خودم رو اینجا براتون بارگزاری میکنم
                     </p>
 
-                    <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
+                    <div className='pt-4 opacity-0 animate-fade-in-delay-5'>
                         <a href="#project" className='cosmic-button'
                         >
                             پروژه‌هایی که من توسعه داده‌ام
