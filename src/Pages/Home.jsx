@@ -4,6 +4,8 @@ import StarBackground from '@/Component/StarBackground'
 import NavBar from '../Component/NavBar'
 import HeroSection from '../Component/HeroSection'
 import AboutMe from '../Component/AboutMe'
+import Skills from '../Component/Skills'
+import Projects from '../Component/Projects'
 
 function Home() {
   return (
@@ -15,6 +17,7 @@ function Home() {
       <main>
         <HeroSection />
         <AboutMe />
+        <Skills />
       </main>
     </div>
   )
