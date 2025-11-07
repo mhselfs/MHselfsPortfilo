@@ -37,7 +37,7 @@ const ThemeToggle = () => {
         <button onClick={toggleTheme}
         className={
             // use `cn` function in `lib` for insert comma add another style in new line  
-            cn("fixed top-13 md:top-5 right-18 z-50 p-2 rounded-full transition-colors duration-300",
+            cn("fixed top-13 md:top-10 -left-2 z-50 p-2 rounded-full transition-colors duration-300",
                 "focus:outline-hidden"
         )}>
             {

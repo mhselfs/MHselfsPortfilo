@@ -11,22 +11,21 @@ const navItem = [
 ]
 
 const NavBar = () => {
-    const [isScrolled, setisScrolled] = useState(false);
     const [isMenuOpen, setisMenuOpen] = useState(false);
-
+    
     useEffect(
         () => {
             const handleScroll = () => {
-                setisScrolled(window.screenY > 10)
+                setisScrolled(window.scrollY > 10)
             }
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);
-
+            
         }
     ), []
     return (
         <nav className={cn("fixed w-full z-0 transition duration-300 items-center",
-            isScrolled ? "py-3 bg-background-/80 background-blur-md shadow-xs" : "py-5"
+            "py-3 bg-primary/15 backdrop-blur-3xl"
         )}>
             {/* LOGO */}
             <div className='container flex justify-between'>
@@ -38,6 +37,7 @@ const NavBar = () => {
                         </span>
                     </span>
                 </a>
+            
 
 
                 {/* Desktop Version */}
