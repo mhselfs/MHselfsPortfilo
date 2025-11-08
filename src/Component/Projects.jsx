@@ -53,9 +53,9 @@ const Projects = () => {
                     {projects.map(
                         (project, key) => (
                             <div key={key} className='group bg-card rounded-xl overflow-hidden shadow-2xl cart-hover'>
-                                <div className='h-48 overflow-hidden'>
+                                {/* <div className='h-48 overflow-hidden'>
                                     <img src={project.image} alt={key} className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-100%' />
-                                </div>
+                                </div> */}
                                 <div className='p-6'>
                                     <div className="flex flex-warp gap-2 mb-4">
                                         {project.tags.map(
