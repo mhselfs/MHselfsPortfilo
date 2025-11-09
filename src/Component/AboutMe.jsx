@@ -18,15 +18,14 @@ const AboutMe = () => {
                         </h3>
                         {/* About My Selfs */}
                         <p className='text-foreground '>
-                            گیر کرده بین گیگ و نرد، یه چیزی بین واقعیت و رویا! میتونید تصور کنید؟ نه!
-                        </p>
+                            دانشجوی پرانگیزه مهندسی کامپیوتر در دانشگاه آزاد اسلامی با تجربه در زبان‌های C#، C++ و Python هستم. در حال حاضر مهارت‌های خود را با یادگیری React و سایر فریم‌ورک‌های مدرن در زمینه توسعه فرانت‌اند گسترش می‌دهم. با داشتن توانایی‌های قوی در کار تیمی، ارتباط مؤثر و حل مسئله، به‌دنبال کارآموزی هستم تا در پروژه‌های نوآورانه مشارکت کرده و تجربه عملی در توسعه نرم‌افزار کسب کنم                        </p>
 
                         <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                             <a href="#contact" className='cosmic-button'>
                                 تماس با من
                             </a>
                             {/* Add link of your CV Hear */}
-                            <a href="#contact" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
+                            <a href="portfolio/src/assets/MohamadHossein CV V3.1.pdfportfolio/src/assets/MohamadHossein CV V3.1.pdf" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
                                 دانلود رزومه من
                             </a>
 

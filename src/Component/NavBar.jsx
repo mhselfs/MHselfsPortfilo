@@ -12,19 +12,19 @@ const navItem = [
 
 const NavBar = () => {
     const [isMenuOpen, setisMenuOpen] = useState(false);
-    
+    const [isScrolled, setIsScrolled] = useState(false);
     useEffect(
         () => {
             const handleScroll = () => {
-                setisScrolled(window.scrollY > 10)
-            }
+                setIsScrolled(window.screenY > 10);
+            };  
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);
-            
+
         }
     ), []
     return (
-        <nav className={cn("fixed w-full z-0 transition duration-300 items-center",
+        <nav className={cn("fixed w-full z-10 transition duration-300 items-center",
             "py-3 bg-primary/15 backdrop-blur-3xl"
         )}>
             {/* LOGO */}
@@ -37,7 +37,7 @@ const NavBar = () => {
                         </span>
                     </span>
                 </a>
-            
+
 
 
                 {/* Desktop Version */}
