@@ -4,7 +4,7 @@ import { cn } from '../lib/utils';
 
 const ThemeToggle = () => {
     // Make light and dark mode state
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     // for save dark mode or light mode
     useEffect(() => {
@@ -12,7 +12,6 @@ const ThemeToggle = () => {
         if (storedTheme == "dark") {
             document.documentElement.classList.add("dark")
             setIsDarkMode(true)
-
         } if (storedTheme == "light") {
             setIsDarkMode(false)
             document.documentElement.classList.remove("dark")
@@ -37,7 +36,7 @@ const ThemeToggle = () => {
         <button onClick={toggleTheme}
         className={
             // use `cn` function in `lib` for insert comma add another style in new line  
-            cn("fixed top-13 md:top-10 -left-2 z-50 p-2 rounded-full transition-colors duration-300",
+            cn("hidden fixed top-13 md:top-10 -left-2 z-50 p-2 rounded-full transition-colors duration-300",
                 "focus:outline-hidden"
         )}>
             {
