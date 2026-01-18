@@ -32,7 +32,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className='absolute bottom-0 left-1/2 transform -translate-x-0.5 flex flex-col items-center animate-bounce '>
+            <div className='absolute bottom-0 transform -translate-x-0.5 flex flex-col items-center animate-bounce '>
                 <span className='text-sm mb-2'>
                     Scroll
                 </span>
