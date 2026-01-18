@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { cn } from "../lib/utils";
 import { useEffect } from 'react';
 import { MenuIcon, X } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 const navItem = [
     { name: "اصلی", href: "#hero" },
     { name: "درباره من", href: "#about" },
@@ -65,6 +66,9 @@ const NavBar = () => {
                                 </a>
                             )
                         })}
+                        <ThemeToggle className="bottom-0"/>
+                    </div>
+                    <div>
                     </div>
                 </div>
             </div>
