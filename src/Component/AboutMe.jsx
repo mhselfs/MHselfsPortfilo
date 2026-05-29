@@ -25,7 +25,7 @@ const AboutMe = () => {
                                 تماس با من
                             </a>
                             {/* Add link of your CV Hear */}
-                            <a href="portfolio/src/assets/MohamadHossein CV V3.1.pdfportfolio/src/assets/MohamadHossein CV V3.1.pdf" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
+                            <a href="https://mhselfs.s3.ir-thr-at1.arvanstorage.ir/MohamadHossein%20CV%20V4%20%285%29%20%283%29.pdf?versionId=" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
                                 دانلود رزومه من
                             </a>
 
