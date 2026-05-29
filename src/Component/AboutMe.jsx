@@ -25,14 +25,14 @@ const AboutMe = () => {
                                 تماس با من
                             </a>
                             {/* Add link of your CV Hear */}
-                            {/* <a href="portfolio/src/assets/MohamadHossein CV V3.1.pdfportfolio/src/assets/MohamadHossein CV V3.1.pdf" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
+                            <a href="portfolio/src/assets/MohamadHossein CV V3.1.pdfportfolio/src/assets/MohamadHossein CV V3.1.pdf" className='cosmic-button bg-background/0 text-primary hover:bg-background/10'>
                                 دانلود رزومه من
-                            </a> */}
+                            </a>
 
                         </div>
                     </div>
                     <div className='gird-cols-1 gap-6'>
-                        <div className='p-6 gradiant-border cart-hover'>
+                        <div className='p-6 gradiant-border'>
                             <div className='flex items-start gap-4'>
                                 <div className='p-3 rounded-xl bg-primary/10'>
                                     <Code2 className='h-8 w-6 text-primary' />
@@ -41,7 +41,7 @@ const AboutMe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='p-6 gradiant-border cart-hover'>
+                        <div className='p-6 gradiant-border'>
                             <div className='flex items-start gap-4'>
                                 <div className='p-3 rounded-xl bg-primary/10'>
                                     <AtomIcon className='h-8 w-6 text-primary' />
@@ -50,7 +50,7 @@ const AboutMe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='p-6 gradiant-border cart-hover'>
+                        <div className='p-6 gradiant-border'>
                             <div className='flex items-start gap-4'>
                                 <div className='p-3 rounded-xl bg-primary/10'>
                                     <SortAscIcon className='h-8 w-6 text-primary' />

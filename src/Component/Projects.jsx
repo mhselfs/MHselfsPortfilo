@@ -4,33 +4,21 @@ import React from 'react'
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
+        title: "Space News Project",
         description: "A beautiful landing page app using React and Tailwind.",
-        image: "../public/projects/project1.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React", "TailwindCSS", "JS"],
+        demoUrl: "https://spacenewslanding.netlify.app/",
+        githubUrl: "https://github.com/mhselfs/SpaceNews",
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
+        title: "Habit tracker",
         description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: "../public/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
-        demoUrl: "#",
-        githubUrl: "#",
-    },
-    {
-        id: 3,
-        title: "E-commerce Platform",
-        description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: "../public/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
-    },
+            "A habit tracker demo built with React and TypeScript.",
+        tags: ["TypeScript", "React", "Tailwindcss"],
+        demoUrl: "https://brain-light-nine.vercel.app/",
+        githubUrl: "https://github.com/mhselfs/brain-light",
+    }
 ];
 
 const Projects = () => {
@@ -52,7 +40,7 @@ const Projects = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8' >
                     {projects.map(
                         (project, key) => (
-                            <div key={key} className='group bg-card rounded-xl overflow-hidden shadow-2xl cart-hover'>
+                            <div key={key} className='group bg-card rounded-xl overflow-hidden shadow-2xl'>
                                 {/* <div className='h-48 overflow-hidden'>
                                     <img src={project.image} alt={key} className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-100%' />
                                 </div> */}
@@ -75,10 +63,10 @@ const Projects = () => {
                                 </p>
                                 <div className='flex justify-between items-center ml-4 mb-4'>
                                     <div className="flex space-x-3">
-                                        <a target='_blank' href={project.demoUrl} className='text-foreground/80 hover:text-primary transition-colors duration-300'>
+                                        <a target='_blank' href={project.demoUrl} className='text-foreground/80 hover:text-primary transition-colors duration-300 cursor-pointer'>
                                             <ExternalLink />
                                         </a>
-                                        <a target='_blank' href={project.githubUrll} className='text-foreground/80 hover:text-primary transition-colors duration-300'>
+                                        <a target='_blank' href={project.githubUrl} className='text-foreground/80 hover:text-primary transition-colors duration-300 cursor-pointer'>
                                             <Github />
                                         </a>
                                     </div>

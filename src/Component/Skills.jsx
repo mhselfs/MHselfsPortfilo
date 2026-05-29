@@ -46,7 +46,7 @@ const Skills = () => {
                         fillteredSkills.map(
                             (skill, key) => (
 
-                                <div key={key} className='bg-card p-6 rounded-xl shadow-2xl cart-hover m-4'>
+                                <div key={key} className='bg-card p-6 rounded-xl shadow-2xl m-4'>
                                     <div className='text-left mb-4'>
                                         <h3 className='font-semibold text-lg' >
                                             {skill.name}

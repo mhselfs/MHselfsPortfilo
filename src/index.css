@@ -144,10 +144,6 @@
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 }
 
-@utility cart-hover {
-  @apply transition-transform duration-300 hover:scale-125 hover:shadow-lg;
-}
-
 @utility gradiant-border {
   @apply relative rounded-md border-2 border-transparent;
   background: liner-gradient(to right, hsl(var(--card), hsl(var(--card))));
